@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        body {
+            background-color: white;
+        }
+        nav {
+            background-color: rgba(211, 211, 211, 0.5);
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+        }
+        nav > ul {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            position: relative;
+            list-style: none;
+            margin-right: 20px;
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+        nav ul li:hover > ul {
+            display: block;
+        }
+    </style>
+    <title>Un Novus One | Towards One Earth 2030</title>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li>Placeholder 1
+                <ul>
+                    <li>Demo Link 1</li>
+                    <li>Demo Link 2</li>
+                    <li>Demo Link 3</li>
+                    <li>Demo Link 4</li>
+                    <li>Demo Link 5</li>
+                    <li>Demo Link 6</li>
+                    <li>Demo Link 7</li>
+                </ul>
+            </li>
+            <li>Placeholder 2
+                <ul>
+                    <li>Demo Link 1</li>
+                    <li>Demo Link 2</li>
+                    <li>Demo Link 3</li>
+                    <li>Demo Link 4</li>
+                    <li>Demo Link 5</li>
+                    <li>Demo Link 6</li>
+                    <li>Demo Link 7</li>
+                </ul>
+            </li>
+            <li>Placeholder 3
+                <ul>
+                    <li>Demo Link 1</li>
+                    <li>Demo Link 2</li>
+                    <li>Demo Link 3</li>
+                    <li>Demo Link 4</li>
+                    <li>Demo Link 5</li>
+                    <li>Demo Link 6</li>
+                    <li>Demo Link 7</li>
+                </ul>
+            </li>
+            <li>Placeholder 4
+                <ul>
+                    <li>Demo Link 1</li>
+                    <li>Demo Link 2</li>
+                    <li>Demo Link 3</li>
+                    <li>Demo Link 4</li>
+                    <li>Demo Link 5</li>
+                    <li>Demo Link 6</li>
+                    <li>Demo Link 7</li>
+                </ul>
+            </li>
+            <li>Placeholder 5
+                <ul>
+                    <li>Demo Link 1</li>
+                    <li>Demo Link 2</li>
+                    <li>Demo Link 3</li>
+                    <li>Demo Link 4</li>
+                    <li>Demo Link 5</li>
+                    <li>Demo Link 6</li>
+                    <li>Demo Link 7</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Towards One Earth 2030</h2>
+                    <h3>Our Mission</h3>
+                </hgroup>
+                <p>Unified Branding and Focus on Mission: The Un Novus One initiative is dedicated to uniting efforts for a sustainable future by 2030. With a clear vision and consistent branding, we strive to make a significant impact.</p>
+                <figure>
+                    <img src="https://source.unsplash.com/random/800x600" alt="Impactful Imagery" />
+                    <figcaption><a href="#" target="_blank">Explore More</a></figcaption>
+                </figure>
+                <h3>Multilingual Support</h3>
+                <p>We offer versions of our site in various languages to ensure global accessibility and inclusivity.</p>
+                <h3>Educational Content and Social Media Integration</h3>
+                <p>Stay connected and informed with our educational podcasts and follow us on social media to be part of our community.</p>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Stay Updated</h2>
+                    <h3>Subscribe to Our Newsletter</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required />
+                    <input type="email" id="email" name="email" placeholder="Email" aria-label="Email" required />
+                    <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    <footer class="container">
+        <small>
+            <a href="#">Privacy Policy</a> • <a href="#">Legal Disclaimer</a>
+        </small>
+    </footer>
+</body>
+</html>
